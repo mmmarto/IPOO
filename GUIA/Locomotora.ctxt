@@ -1,0 +1,10 @@
+#BlueJ class context
+#Fri Sep 18 00:54:08 ART 2026
+comment0.target=Locomotora
+comment1.target=void encender()
+comment2.target=void apagar()
+comment3.target=void acelerar()
+comment4.target=void frenar()
+comment5.target=void cargar()
+comment6.target=int verificarCarga()
+numComments=7
