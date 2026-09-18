@@ -1,5 +1,5 @@
 #BlueJ class context
-#Fri Sep 18 01:41:23 ART 2026
+#Fri Sep 18 02:01:56 ART 2026
 comment0.target=CuentaBancaria
 comment1.params=cantidad
 comment1.target=void depositar(int)
@@ -7,4 +7,6 @@ comment2.params=cantidad
 comment2.target=void retirar(int)
 comment3.target=int getSaldo()
 comment4.target=int getMaxExtracciones()
-numComments=5
+comment5.target=java.lang.String getNombre()
+comment6.target=java.util.Date getFecha()
+numComments=7

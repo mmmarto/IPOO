@@ -6,19 +6,25 @@ public class CuentaBancaria
     private int saldo;
     private int maxExtracciones;
     private Date fechaCreacion;
-    private int cantidad;
+    
     
     public void depositar(int cantidad){
         saldo += cantidad;
     }
     public void retirar(int cantidad){
-        saldo -= cantidad;;
+        saldo -= cantidad;
     }
     public int getSaldo(){
         return saldo;
     }
     public int getMaxExtracciones(){
         return maxExtracciones;
+    }
+    public String getNombre(){
+        return titular;
+    }
+    public Date getFecha(){
+        return fechaCreacion;
     }
     
     }
